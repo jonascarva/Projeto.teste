@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Box-icon-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Google-Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Apple Watch jonas</title>
+</head>
+<body>
+
+    <!--Cabeçalho-->
+
+    <header>
+        <a href="#" class="logo"><i class='bx bx-stopwatch'></i>Honor</a>
+          
+       
+        <ul class="Links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Smartphone</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul><!--Links-->
+            
+        <div class="h-main">
+            <a href="#" class="h-btn">buy now</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </div><!--h-main-->
+    </header> 
+
+    <!--hero-section-->
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Smartwacht</h1>
+            <h4>Element serie</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Atque laboriosam soluta quidem magnam 
+               </p>
+               <div class="hero-in">
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="img/placa04.jpeg">
+                </div><!--box-->
+
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="img/placa01.jpeg">
+                </div><!--box-->
+
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="img/placa08.jpeg">
+                </div><!--box-->
+               </div><!--hero-in-->
+        </div><!--hero-text-->
+
+        <div class="#">
+            <img src="">
+        </div><!--hero-img-->
+    </section><!--hero-->
+
+    <!--containerproje-->
+
+    <section class="containerproje">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Economia</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique ipsam quibusdam inventore earum, quo assumenda, quam molestiae 
+                   laborum praesentium velit accusantium iure excepturi. Iste dolores id odit veritatis ex?</p>
+               <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+           
+        <!--slides-->
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>100% energia</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid assumenda eaque, inventore 
+                   pariatur molestias hic, aspernatur nihil ipsam eius magni incidunt? Incidunt eveniet non magnam 
+                   reprehenderit beatae doloribus soluta.</p>
+               <a href="#" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Venha confira os nossos serviço</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos, qui obcaecati nulla 
+                aliquid non iure autem, esse aliquam itaque rerum nostrum 
+                repudiandae! At eligendi quas provident omnis voluptatem. Dignissimos..</p>
+               <a href="#" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+              <!--formulario-->
+        <form action="config.php" method="post">
+            <div class="nome">
+                <label for="nome">Nome:</label>
+                <br />
+                <input type="text" name="nome" placeholder="Digite seu nome" id="nome" class="input"required>
+                <br />
+                <br />
+                <label for="cpf">CPF:</label>
+                <br />
+                <input type="text" name="CPF" placeholder="Digite seu cpf" id="cpf" class="input" required> 
+                <br />
+                <br />
+                <label for="senha">Senha:</label>
+                <br />
+                <input type="password" name="check-senha" placeholder="Rpeita sua senha" id="check-senha" class="input" required> 
+                <br />
+                <br />
+                <button class="btn1" type="submit" name="cadastrar" id="cadastrar">Cadastrar</button>
+            </div>
+        </form>
+
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
